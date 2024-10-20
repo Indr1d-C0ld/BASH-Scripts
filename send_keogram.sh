@@ -4,8 +4,8 @@
 TOKEN="MY BOT TOKEN"
 CHANNEL_ID="CHANNEL ID"
 
-# Data di oggi in formato AAAAMMDD
-DATA=$(date +%Y%m%d)
+# Ottieni la data di ieri in formato AAAAMMDD
+DATA=$(date -d "yesterday" +"%Y%m%d")
 
 # Cartella contenente i file
 CARTELLA="/home/pi/allsky/images/$DATA/keogram"
