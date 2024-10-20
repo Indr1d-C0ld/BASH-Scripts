@@ -26,8 +26,8 @@ pressure=$(echo $weather_data | jq '.main.pressure')
 
 # Componi il messaggio da inviare
 message="🌤 Meteo aggiornato:"
-message+="🌡️ Temperatura: ${temperature}°C"
-message+="💧 Umidità: ${humidity}%"
+message+="🌡️ Temperatura: ${temperature}°C; "
+message+="💧 Umidità: ${humidity}%; "
 message+="🌪️ Pressione: ${pressure} hPa"
 
 # Invia il messaggio al canale Telegram
