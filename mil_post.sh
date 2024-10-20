@@ -7,7 +7,7 @@ CHAT_ID=""
 JSON_FILE="/var/run/readsb/aircraft.json"
 
 # Ottieni il volo militare più vicino
-NEAREST_MIL_FLIGHT=$(jq -r '.aircraft[] | select(.flight and (.flight | test("^(AME|UAF).*"))) | "hex: #\(.hex) flight: #\(.flight) squawk: \(.squawk) lat.: \(.lat) lon.: \(.lon) alt: \(.alt_baro)"' $JSON_FILE | head -n 1)
+NEAREST_MIL_FLIGHT=$(jq -r '.aircraft[] | select(.flight and (.flight | test("^(AME|UAF).*"))) | "Hex: #\(.hex); Flight: #\(.flight); Squawk: \(.squawk); Lat.: \(.lat); Lon.: \(.lon); Alt: \(.alt_baro)"' $JSON_FILE | head -n 1)
 
 # Se non ci sono voli militari
 if [ -z "$NEAREST_MIL_FLIGHT" ]; then
