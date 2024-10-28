@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BOT_TOKEN="7034351346:AAGp0J0rniIQWyrLjOVIhfCf-3YSiMLpd5s"
-CHAT_ID="-1002270663940"
+BOT_TOKEN=""
+CHAT_ID=""
 
 # Path del file JSON di dump1090
 JSON_FILE="/var/run/adsbfi-feed/aircraft.json"
