@@ -31,6 +31,7 @@ mask_callsign = {
 		'EGY01':'Egyptian Government Flight',
 		'ENF*':'ENAV Flight',
                 'FAF*':'French Air Force Flight',
+                'FLTCK*':'Italian Air Force Flight',
                 'FMY*':'French Army Flight',
                 'FNY*':'French Navy Flight',
                 'GAF*':'German Air Force Flight',
@@ -65,6 +66,7 @@ mask_callsign = {
                 'SPHYR*':'Pakistan Government Flight',
 		'SUB*':'Egyptian Government Flight',
                 'SUI*':'Swiss Air Force Flight',
+                'TUAF*':'Turkish Air Force', 
                 'UAF*':'United Arab Emirates Air Force Flight',
                 'UNO*':'United Nations Flight',
 		'VOLPE*':'Guardia di Finanza Flight'
@@ -101,7 +103,9 @@ mask_hex = {
 ttl_max = 3600
 
 # Путь к скрипту, который будет запущен при совпадении масок
-# script = '/home/randolph/alert.sh'
+# Se di desidera attivare lo script, inserire poi prima di
+# "today.strftime" la stringa "script, " nelle sezioni in basso
+# script = '/home/randolph/do_nothing.sh'
 script = 'telegram-send "*** Flight Alert! ***"'
 
 # Период сканирования (time to scan)
