@@ -5,8 +5,8 @@ JSON_FILE="/var/run/adsbfi-feed/aircraft.json"  # Percorso al file JSON dei dati
 # JSON_FILE="/home/randolph/test.json"
 
 # Configura il TOKEN e il CHAT_ID del canale Telegram
-TOKEN="7984714705:AAEAKO_LzvFDa4OUcUXgmMjtJiisap_3HO4"
-CHAT_ID="-1002270663940"
+TOKEN=""
+CHAT_ID=""
 
 # Funzione per inviare il messaggio a Telegram
 send_telegram_message() {
