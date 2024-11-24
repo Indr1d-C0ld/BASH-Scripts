@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Prerequisiti:
+# sudo apt install arp-scan nmap -y
+
 # Colori per l'output
 GREEN="\033[1;32m"
 CYAN="\033[1;36m"
