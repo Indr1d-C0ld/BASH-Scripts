@@ -51,3 +51,4 @@ while true; do
     controlla_batteria
     sleep $INTERVALLO
 done
+

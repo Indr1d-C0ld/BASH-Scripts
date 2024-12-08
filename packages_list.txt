@@ -1,0 +1,20 @@
+
+tmux
+curl
+htop
+nmap
+mc
+irssi + irssi-scripts
+zathura-pdf-poppler
+calcurse
+taskwarrior
+neomutt
+sc
+git
+jq
+screenfetch
+unzip
+p7zip-full lshw
+transmission-cli
+figlet
+vbetool
